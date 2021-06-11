@@ -1,0 +1,61 @@
+/*
+
+mobile -> green
+tablet -> blue
+laptop -> red
+PC -> brown
+
+Mobile-First Approach
+*/
+
+/*
+
+Tablet -> 0-768px
+Laptop -> 1020px
+PC -> 1400px
+*/
+
+/* body {
+  background-color: green;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: orange;
+  }
+} */
+
+body {
+  background-color: black;
+  padding: 200px;
+}
+.parent {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* flex-wrap: wrap;
+  justify-content: space-around; */
+}
+
+.child {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin: '10px';
+}
+
+.child2 {
+  background-color: greenyellow;
+  width: 200px;
+  height: 350px;
+  /* margin: '10px'; */
+}
